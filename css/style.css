@@ -1,0 +1,425 @@
+* {
+    padding: 0; margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-block{
+    padding: 0px 250px 0px 250px;
+    margin: 33px 0px 40px 0px;
+}
+
+.nav-menu{
+    color: #828282;
+    font-size: 18px;
+    font-family: Gilroy-Bold;
+    line-height: 22px;
+    border-bottom: 1px solid #828282;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 31px 0px;
+}
+
+.nav-menu a:hover {
+    font-size: 18px;
+    transition: .10s;
+    color: grey;
+    opacity: 70%;
+    font-weight: bold;
+}
+
+.DenisNovikAbout-block {
+    padding: 0px 250px 0px 250px;
+    margin: 0px 0px 50px 0px;
+}
+
+.DenisNovikAbout_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.DenisNovikAbout_title {
+    display: flex;
+    flex-direction: column;
+    font-size: 47px;
+    height: 100%;
+    width: 123.51263427734375px;
+    font-weight: bold;
+}
+
+.DenisNovikAbout_about {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    height: 44.064727783203125px;
+    width: 155.64593505859375px;
+}
+
+.DenisNovikAbout_ruend{
+    
+}
+
+.backgroundDenisNovikov-block {
+    padding: 0px 250px 0px 250px;
+    margin: 0px 0px 105px 0px;
+}
+
+.backgroundDenisNovikov_img {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme-block {
+    background: #F6F6F6;
+    
+}
+
+.aboutme_row {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme_title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    margin: 0px 0px 18px 0px;
+
+}
+
+.aboutme_text{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.aboutme_text p{
+    margin: 0px 0px 80px 0px;
+}
+
+.aboutme_text p:last-child{
+    margin: 0px 0px 0px 0px;
+}
+
+
+.skills-block {
+}
+
+.skills-block_title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    margin: 91px 0px 0px 0px;
+
+}
+
+
+.skills-block_text {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    margin: 70px 0px 0px 0px;
+}
+
+.skills-block_row {
+    display: flex;
+    flex-direction: row;
+    margin: 84px 0px 108px 0px;
+}
+
+.skills-block_column {
+    height: 208px;
+    width: 25%;
+    margin: 0px 90px 0px 0px;
+    text-align: center;
+}
+
+
+.skills-block_column:last-child {
+    margin: 0px 0px 0px 0px;
+}
+
+.figma-img{
+    height: 88.4130859375px;
+    width: 94;
+}
+
+.skills-block_column_imgs {
+    background: url('../img/Vector.png') no-repeat center;
+
+}
+
+.skills-block_column_text {
+    margin: 19px 0px 40px 0px;
+    color:#828282;
+}
+
+
+.portfolio-block {
+    background:#F6F6F6;
+    padding: 112px 160px 0px 160px;
+}
+
+
+
+.portfolio_title {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0px 0px 47px 0px;
+
+}
+
+.portfolio_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio_column {
+    text-align: center;
+    margin: 0px 0px 100px 0px;
+    width: 100%;
+}
+
+
+.portfolio_links {
+    margin: 47px 0px 0px 0px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.portfolio_links a:hover {
+    font-size: 18.5px;
+    transition: .5s;
+    border: 3px solid #000;
+}
+
+
+
+.footer-contacts-block {
+    padding: 0px 250px 0px 250px;
+}
+
+.footer-contacts_title {
+    margin: 115px 0px 23px 0px;
+    font-family: Gilroy-Bold;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+}
+
+.footer-contacts_text {
+    margin: 0 auto;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-contacts_btn_blck {
+    margin: 30px 0px 0px 0px;
+}
+
+.footer-contacts_btn {
+    display: block;
+    margin: 0px auto;
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+    border: 5px solid #000;
+    border-radius: 15px;
+    background: #000;
+    color: #F6F6F6;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-contacts_btn:hover {
+    border: 5px solid #000;;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+
+
+
+.footer-contacts_medianav img {
+    width: 42;
+    height: 42;
+    margin: 0px 5px 0px 0px ;
+}
+
+.footer-contacts_medianav img:hover {
+    width: 50;
+    height: 50;
+    transition: .2s;
+}
+
+.footer-contacts_medianav a {
+    margin: 0px 25px 0px 0px ;
+}
+
+.footer-contacts_medianav {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px 40px 0px;
+}
+
+
+@media(max-width: 835px) {
+    .nav-menu a {
+    font-size: 16px;
+}
+    .nav-menu a:hover {
+    transition: .10s;
+    font-size: 16px;
+    color: grey;
+    opacity: 70%;
+    font-weight: bold;
+}
+    
+    .DenisNovikAbout_title {
+        font-size: 40px;
+}
+
+    .DenisNovikAbout_about {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width: 796px) {
+    .nav-menu a {
+    font-size: 14px;
+}
+    .nav-menu a:hover {
+    transition: .10s;
+    font-size: 14px;
+    color: grey;
+    opacity: 70%;
+    font-weight: bold;
+}
+    
+    .DenisNovikAbout_title {
+        font-size: 35px;
+}
+
+    .DenisNovikAbout_about {
+        font-size: 13px;
+    }
+
+    .DenisNovikAbout_ruend img{
+        width: 13px;
+    }
+
+    .portfolio_img img{
+        width: 400px;
+        height: 350px;
+    }
+
+}
+
+@media(max-width: 750px) {
+    .nav-menu a {
+    font-size: 10px;
+}
+    .nav-menu a:hover {
+    transition: .10s;
+    font-size: 10px;
+    color: grey;
+    opacity: 70%;
+    font-weight: bold;
+}
+    
+    .DenisNovikAbout_title {
+        font-size: 20px;
+        width: 50px;
+}
+
+    .DenisNovikAbout_about {
+        font-size: 10px;
+        width: 55px;
+    }
+
+    .DenisNovikAbout_ruend img{
+        width: 13px;
+    }
+
+}
+
+@media(max-width: 728px) {
+    .nav-menu a {
+    font-size: 10px;
+}
+    .nav-menu a:hover {
+    transition: .10s;
+    font-size: 10px;
+    color: grey;
+    opacity: 70%;
+    font-weight: bold;
+}
+    
+    .DenisNovikAbout_title {
+        font-size: 20px;
+        width: 50px;
+}
+
+    .DenisNovikAbout_about {
+        font-size: 10px;
+        width: 55px;
+    }
+
+    .DenisNovikAbout_ruend img{
+        width: 13px;
+    }
+
+    .footer-contacts_text {
+        width: 100px;
+    }
+
+}
+
+@media(max-width: 663px) {
+    .nav-menu a {
+    font-size: 7px;
+}
+    .nav-menu a:hover {
+    transition: .10s;
+    font-size: 7px;
+    color: grey;
+    opacity: 70%;
+    font-weight: bold;
+}
+    
+    .DenisNovikAbout_title {
+        font-size: 18px;
+        width: 50px;
+}
+
+    .DenisNovikAbout_about {
+        font-size: 9px;
+        width: 55px;
+    }
+
+    .DenisNovikAbout_ruend img{
+        width: 13px;
+    }
+
+    .footer-contacts_text {
+        width: 100px;
+    }
+
+}
+
+
